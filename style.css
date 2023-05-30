@@ -9,21 +9,31 @@ html{
 body{
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+header{
+   min-height: 15vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: last baseline;
+}
+header h1{
+   font-size: 10vh;
+   color: rgba(0, 0, 0, 0.82);
+}
 .big-box{
-    min-height: 100vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
  td:nth-of-type(3n) {
-    border-right: 3px solid rgb(0, 0, 0) ;
+    border-right: 3px solid rgba(0, 0, 0, 0.82) ;
  }
  tr:nth-of-type(3n) td {
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.82);
  }
  table {
-    border-top: 3px solid #000000;
-    border-left: 3px solid #000000;
+    border-top: 4px solid rgba(0, 0, 0, 0.82);
+    border-left: 4px solid rgba(0, 0, 0, 0.82);
  }
  input::-webkit-outer-spin-button,
  input::-webkit-inner-spin-button {
